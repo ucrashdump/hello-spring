@@ -36,6 +36,7 @@ public class JdbcMemberRepository implements MemberRepository{
             if(rs.next()){
                 member.setId(rs.getLong(1));
             }
+            //Test
         }
         catch(Exception e ){
 
